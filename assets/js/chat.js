@@ -35,12 +35,12 @@ function activeBtn() {
     ) {
       if (!$("button.cv_entry").hasClass("active")) {
         $("button.cv_entry").addClass("active");
-        $("button.cv_entry").prop("disabled", false);
+        // $("button.cv_entry").prop("disabled", false);
       }
     } else {
       if ($("button.cv_entry").hasClass("active")) {
         $("button.cv_entry").removeClass("active");
-        $("button.cv_entry").prop("disabled", true);
+        // $("button.cv_entry").prop("disabled", true);
       }
     }
   } else {
@@ -50,12 +50,12 @@ function activeBtn() {
     ) {
       if (!$("button.cv_entry").hasClass("active")) {
         $("button.cv_entry").addClass("active");
-        $("button.cv_entry").prop("disabled", false);
+        // $("button.cv_entry").prop("disabled", false);
       }
     } else {
       if ($("button.cv_entry").hasClass("active")) {
         $("button.cv_entry").removeClass("active");
-        $("button.cv_entry").prop("disabled", true);
+        // $("button.cv_entry").prop("disabled", true);
       }
     }
   }
