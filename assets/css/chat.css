@@ -261,6 +261,9 @@
 .img-info img{
   width: 250px;
 }
+.img-home{
+  text-align: center;
+}
 .img-home img{
   width: 300px;
 }
